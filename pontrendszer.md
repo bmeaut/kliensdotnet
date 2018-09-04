@@ -2,7 +2,7 @@
 
 Megajánlott jegy számítása: 30-49 pont: jó (4), 50+ pont: jeles (5)
 
-**Véglegesítve a 2018\. őszi félévre még nincs véglegesítve:\.**
+**A 2018\. őszi félévre még nincs véglegesítve:\.**
 
 ## Kisházi követelmények
 
