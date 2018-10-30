@@ -46,3 +46,6 @@
   };
 
 ```
+```C#
+private readonly XNamespace nsa = "http://www.ecb.int/vocabulary/2002-08-01/eurofxref";
+```
