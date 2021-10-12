@@ -36,7 +36,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Részpontszám nem adható kivéve, ahol intervallum van megadva
 *   Összesen maximum 60 pont szerezhető
 
-## **Még nincs véglegesítve 2018\. őszi félévre!**
+## **Még nincs véglegesítve 2021\. őszi félévre!**
 
 **Véglegesítés után csak a hallgatóknak előnyös módosítások lehetnek (pl. új jogcímek):**
 
