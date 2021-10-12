@@ -69,7 +69,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Animációk használata **[3-9]**
 *   Gesztuskezelés **[3]**
 *   Accessibility (fogyatékkal élők támogatása) **[5-10]**
-*   Egyedig vezérlő készítése! **[3-6]** **Nem User Control!**
+*   Egyedi vezérlő készítése! **[3-6]** **Nem User Control!**
     *   Xamarin esetében saját Renderer komponensek implementálása
 *   Inkrementálisan betöltődő lista **[3]**
 *   Line-of-Business alkalmazás funkciók implementálása **[3-15]** pl: inputvalidáció, drag&drop, összetett menürendszer, ribbon, DataGrid stb. 
