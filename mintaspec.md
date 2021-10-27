@@ -1,9 +1,10 @@
 # Spotify katalógus kliens
-## Feladat [2-3 mondat]
 
-A hivatalos Spotify Web API-ra épülő webes felület. A felhasználó a Spotify fiókjával léphet be. A felhasználó a mentett számait és a lejátszási listáit tudja táblázatos formában böngészni, kezelni illetve keresni is lehet a teljes Spotify katalógusban.
+## Feladat _[2-3 mondat]_
 
-## A kisháziban elérhető felületek és funkcióik [adatmódodosító is legyen benne]
+A hivatalos [Spotify Web API](https://developer.spotify.com/documentation/web-api/reference/#/)-ra épülő webes felület. A felhasználó a Spotify fiókjával léphet be. A felhasználó a mentett számait és a lejátszási listáit tudja táblázatos formában böngészni, kezelni illetve keresni is lehet a teljes Spotify katalógusban.
+
+## A kisháziban elérhető felületek és funkcióik _[adatmódodosító is legyen benne]_
 
 * "Mentett számok" felület
   * Mentett számok megjelenítése táblázatban  
@@ -17,14 +18,6 @@ A hivatalos Spotify Web API-ra épülő webes felület. A felhasználó a Spotif
   * Eredmények megjelenítése táblázatban (max. 20 db.)
   * Eredmények közül a kiválasztott számok hozzáadása a lejátszási listához
   
-## Alaparchitektúra és kliensoldali technológia [a kliensoldali technológia csak a tárgyhonlapon megadottak közül választható]
-  * Szerveroldal: Spotify Web API [érdemes már létező szerveroldalt, webes API-t választani]
+## Alaparchitektúra és kliensoldali technológia _[a kliensoldali technológia csak a tárgyhonlapon megadottak közül választható]_
+  * Szerveroldal: Spotify Web API _[érdemes már létező szerveroldalt, webes API-t választani]_
   * Kliensoldal: Blazor WebAssembly
-
-## Továbbfejlesztési tervek [opcionális, a pontrendszerből érdemes válogatni]
-  * hosztolás Azure-ban
-  * többnyelvű felület
-  * külső komponens (táblázat) integrálása
-  * IndexedDB használata gyorsítótárként
-  * PWA képesség
-  * Függőségek on-demand letöltése (assembly lazy loading)
