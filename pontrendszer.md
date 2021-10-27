@@ -107,7 +107,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ## Pontrendszer - Blazor
 
-**Ha valaki olyan funkcióra/technológiára/megoldásra szeretne pontot kapni, ami nem szerepel a listában, azt a gyakorlatvezetővel egyeztetve kérheti a listára történő felvételét.**
+_TBA_
 
 ## A szabályrendszer változása
 
