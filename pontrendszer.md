@@ -1,4 +1,4 @@
-# (Előzetes) Házi Pontrendszer
+# (Előzetes) Házi követelmények és pontrendszer
 
 **A 2021\. őszi félévre még nincs véglegesítve**
 
