@@ -2,7 +2,7 @@
 
 ## Feladat _[2-3 mondat]_
 
-A hivatalos [Spotify Web API](https://developer.spotify.com/documentation/web-api/reference/#/)-ra épülő webes felület. A felhasználó a saját Spotify fiókjával léphet be. A felhasználó a mentett számait és a lejátszási listáit tudja táblázatos formában böngészni, kezelni, illetve keresni is lehet a Spotify katalógusban.
+A hivatalos [Spotify Web API](https://developer.spotify.com/documentation/web-api/reference/#/)-ra épülő webes felület. A felhasználó a saját Spotify fiókjával léphet be. A mentett számait és a lejátszási listáit tudja táblázatos formában böngészni, kezelni, illetve keresni is lehet a Spotify katalógusban.
 
 ## A kisháziban elérhető felületek és funkcióik _[min. 3 felület, adatmódosító funkció is legyen]_
 
