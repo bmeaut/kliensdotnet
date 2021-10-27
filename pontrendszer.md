@@ -44,10 +44,10 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 *   Minden kisházi követelmény
 *   Legfeljebb két alkalmazás, két különböző technológiával a fentiek közül
-*   Legalább 30 pont megszerzése a Pontrendszer alapján
+*   Legalább 30 pont megszerzése a lenti pontrendszer alapján
 *   **Megajánlott jegy számítása:** 30-49 pont: jó (4), 50+ pont: jeles (5)
 
-## Pontszerzési szabályok
+### Pontszerzési szabályok
 
 * Egy jogcímen csak egyszer szerezhető pont (pl. nem lehet 3 külső osztálykönyvtárral 21 pontot összeszedni), kivéve ahol ezt külön jelezzük
 * Részpontszám nem adható, kivéve, ahol intervallum van megadva
