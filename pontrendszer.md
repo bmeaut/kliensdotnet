@@ -1,32 +1,49 @@
 # (Előzetes) Házi Pontrendszer
 
-Megajánlott jegy számítása: 30-49 pont: jó (4), 50+ pont: jeles (5)
-
-**A 2018\. őszi félévre még nincs véglegesítve:\.**
+**A 2021\. őszi félévre még nincs véglegesítve:\.**
 
 ## Kisházi követelmények
 
-*   A következő platformok valamelyikén elkészített alkalmazás:
-    *   Windows Presentation Foundation (WPF)
-    *   Universal Windows platform (UWP)
-    *   Xamarin.Forms - XAML UI
-*   Oldalak közötti navigáció (legalább 2-3 nézetből áll az alkalmazás)
-*   MVVM minta használata
-*   Adatkezelés: lokálisan fájlba vagy adatbázisba vagy szerverrel kommunikálva (tehát élő alkalmazás legyen, ne csak lorem ipsum adatokkal)
+* A következő platformok valamelyikén elkészített alkalmazás:
+   * XAML     
+      * Windows Presentation Foundation (WPF)
+      * Universal Windows platform (UWP)
+      * WinUI
+      * Xamarin.Forms - XAML UI
+      * Xamarin natív (Xamarin.iOS vagy Xamarin.Android) (csak saját felelősségre, gyakorlaton nem szerepel)
+      * Xamarin.Forms - iOS vagy Android UI (csak saját felelősségre, gyakorlaton nem szerepel)
+   * Blazor
+      * Blazor WebAssembly
+      * Blazor Server (csak saját felelősségre, gyakorlaton nem szerepel)
+* XAML alapú technológia esetben
+   * MVVM minta alkalmazása
+   * adatforrás (egyet kell választani):
+      * lokális fájl
+      * beágyazott adatbázis
+      * szerveroldali/külső API
+* Blazor esetén
+    * .NET 5 (vagy 6 - saját felelősségre) alapplatform
+    * adatforrás (egyet kell választani):
+      * szerveroldali/külső API (esetleg szerveroldali adatbázis főleg Blazor Server esetén)
+      * böngészőn belül elérhető adatforrás (pl. local storage, IndexedDB)
+* Az elfogadott specifikációnak megfelelő működés 
+* A szerveroldali adatforrás/API lehet külső, nem saját fejlesztésű is
 
 **Nem elfogadható a megoldás ha**
 
-*   kezeletlen kivétellel leáll a program
-*   blokkol a UI
-*   UX guideline-ok durva megsértése
-*   specifikációhoz képest jelentősen kevesebb funkcionalitás
+* nem a fentebb felsorolt UI technológiákat használja, pl. WinForms felület
+* kezeletlen kivétellel leáll a program
+* blokkol a UI
+* UX guideline-ok durva megsértése
+* specifikációhoz képest jelentősen kevesebb funkcionalitás
 
 ## Nagyházi követelmények
 
 Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 *   Minden kisházi követelmény
-*   Legalább 30 pont (max 60) megszerzése a Pontrendszer alapján
+*   Legfeljebb két alkalmazás, két különböző technológiával a fentiek közül
+*   Legalább 30 pont megszerzése a Pontrendszer alapján
 *   **Megajánlott jegy számítása:** 30-49 pont: jó (4), 50+ pont: jeles (5)
 
 ## Pontszerzési szabályok
@@ -34,13 +51,12 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Egy jogcímen csak egyszer szerezhető pont
 *   A pontszámnak jól meghatározható alkalmazásfunkcióhoz kell kapcsolódnia, nem fogadható el az implementáció, ha csak a levegőben lóg
 *   Részpontszám nem adható kivéve, ahol intervallum van megadva
-*   Összesen maximum 60 pont szerezhető
 
 ## **Még nincs véglegesítve 2021\. őszi félévre!**
 
 **Véglegesítés után csak a hallgatóknak előnyös módosítások lehetnek (pl. új jogcímek):**
 
-## Pontrendszer
+## Pontrendszer - XAML
 
 ### Általános
 
@@ -92,5 +108,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Rendszer szintű integrációk
     *   Protokol aktiváció **[3]**
     *   Megosztás támogatása **[3-6]**
+
+## Pontrendszer - Blazor
 
 **Ha valaki olyan funkcióra/technológiára/megoldásra szeretne pontot kapni, ami nem szerepel a listában, azt a gyakorlatvezetővel egyeztetve kérheti a listára történő felvételét.**
