@@ -1,6 +1,6 @@
 # (Előzetes) Házi Pontrendszer
 
-**A 2021\. őszi félévre még nincs véglegesítve:\.**
+**A 2021\. őszi félévre még nincs véglegesítve:**
 
 ## Kisházi követelmények
 
@@ -51,10 +51,6 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Egy jogcímen csak egyszer szerezhető pont
 *   A pontszámnak jól meghatározható alkalmazásfunkcióhoz kell kapcsolódnia, nem fogadható el az implementáció, ha csak a levegőben lóg
 *   Részpontszám nem adható kivéve, ahol intervallum van megadva
-
-## **Még nincs véglegesítve 2021\. őszi félévre!**
-
-**Véglegesítés után csak a hallgatóknak előnyös módosítások lehetnek (pl. új jogcímek):**
 
 ## Pontrendszer - XAML
 
@@ -112,3 +108,14 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 ## Pontrendszer - Blazor
 
 **Ha valaki olyan funkcióra/technológiára/megoldásra szeretne pontot kapni, ami nem szerepel a listában, azt a gyakorlatvezetővel egyeztetve kérheti a listára történő felvételét.**
+
+## A szabályrendszer változása
+
+Véglegesítés után is fenntartjuk a jogot
+- az elvégezhető gyakorlatok halmazának bővítésére
+- a jegyszámítási határok kedvezőbbé tételére
+- pontosításra, helyesírási hibák javítására
+- egyéb változtatásra egyetemi szabályok változása miatt (pl. járványhelyzet miatt)
+
+Ezen változtatásokat hallgatók is kezdeményezhetik *pull request* küldésével.
+A változásokat a [github history-ban](https://github.com/bmeaut/kliensdotnet/commits/master/pontrendszer.md) követhetitek.
