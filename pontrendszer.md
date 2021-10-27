@@ -1,6 +1,6 @@
 # (Előzetes) Házi Pontrendszer
 
-**A 2021\. őszi félévre még nincs véglegesítve:**
+**A 2021\. őszi félévre még nincs véglegesítve**
 
 ## Kisházi követelmények
 
