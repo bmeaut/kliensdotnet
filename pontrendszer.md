@@ -12,6 +12,7 @@
       * Xamarin.Forms - XAML UI
       * Xamarin natív (Xamarin.iOS vagy Xamarin.Android) (csak saját felelősségre, gyakorlaton nem szerepel)
       * Xamarin.Forms - iOS vagy Android UI (csak saját felelősségre, gyakorlaton nem szerepel)
+      * MAUI (csak saját felelősségre, gyakorlaton nem szerepel)
    * Blazor
       * Blazor WebAssembly
       * Blazor Server (csak saját felelősségre, gyakorlaton nem szerepel)
@@ -48,9 +49,10 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ## Pontszerzési szabályok
 
-*   Egy jogcímen csak egyszer szerezhető pont
-*   A pontszámnak jól meghatározható alkalmazásfunkcióhoz kell kapcsolódnia, nem fogadható el az implementáció, ha csak a levegőben lóg
-*   Részpontszám nem adható kivéve, ahol intervallum van megadva
+* Egy jogcímen csak egyszer szerezhető pont (pl. nem lehet 3 külső osztálykönyvtárral 21 pontot összeszedni), kivéve ahol ezt külön jelezzük
+* Részpontszám nem adható, kivéve, ahol intervallum van megadva
+* Szerveroldali megoldásért nem adható pont, kivéve Blazor Server
+* A szoftvernek egységes funkcióhalmazt kell nyújtania, különálló, egymáshoz nem kapcsolódó funkciókból álló szoftver nem elfogadható. Azaz különálló tutorialok összefércelését nem díjazzuk.
 
 ## Pontrendszer - XAML
 
