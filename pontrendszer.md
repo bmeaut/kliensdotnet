@@ -75,7 +75,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ### UI
 
-*   Külső UI ösztálykönyvtár használata **[3]**
+*   Külső UI osztálykönyvtár használata **[3]**
 *   Coded UI teszt **[6]**
 *   Lokalizáció (angol+magyar, teljes) **[6]**
 *   DPI skálázásra felkészített felület és erőforrások **[3]**
@@ -109,7 +109,13 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ## Pontrendszer - Blazor
 
-_TBA_
+* Hosztolás külső szolgáltatónál (pl. Azure Static Web App)
+* On-demand függőség letöltés (Assembly Lazy Loading)
+* PWA képesség
+* Lokalizáció (angol+magyar, teljes)
+* SignalR
+* GraphQL
+* Offline, cache
 
 ## A szabályrendszer változása
 
