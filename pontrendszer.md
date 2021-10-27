@@ -112,10 +112,10 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 ## A szabályrendszer változása
 
 Véglegesítés után is fenntartjuk a jogot
-- az elvégezhető gyakorlatok halmazának bővítésére
-- a jegyszámítási határok kedvezőbbé tételére
-- pontosításra, helyesírási hibák javítására
-- egyéb változtatásra egyetemi szabályok változása miatt (pl. járványhelyzet miatt)
+* a jogcímek halmazának bővítésére
+* a jegyszámítási határok kedvezőbbé tételére
+* pontosításra, helyesírási hibák javítására
+* egyéb változtatásra egyetemi szabályok változása miatt (pl. járványhelyzet miatt)
 
 Ezen változtatásokat hallgatók is kezdeményezhetik *pull request* küldésével.
 A változásokat a [github history-ban](https://github.com/bmeaut/kliensdotnet/commits/master/pontrendszer.md) követhetitek.
