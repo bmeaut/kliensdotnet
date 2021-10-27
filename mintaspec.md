@@ -6,7 +6,7 @@ A hivatalos [Spotify Web API](https://developer.spotify.com/documentation/web-ap
 
 ## A kisháziban elérhető felületek és funkcióik _[min. 3 felület, adatmódosító funkció is legyen]_
 
-* "Mentett számok" felület
+* _Mentett számok_ felület
   * Mentett számok megjelenítése táblázatban  
   * Törlés a mentett számokból
 * Lejátszási lista felület
