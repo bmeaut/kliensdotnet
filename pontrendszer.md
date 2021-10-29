@@ -1,8 +1,7 @@
 # (Előzetes) Házi követelmények és pontrendszer
 
-**A 2021\. őszi félévre még nincs véglegesítve**
 
-## Kisházi követelmények
+## Kisházi követelmények (**Véglegesítve 2021. őszi félévre**)
 
 * A következő platformok valamelyikén elkészített alkalmazás:
    * XAML     
@@ -38,7 +37,7 @@
 * UX guideline-ok durva megsértése
 * specifikációhoz képest jelentősen kevesebb funkcionalitás
 
-## Nagyházi követelmények
+## Nagyházi követelmények (**Nincs még véglegesítve 2021. őszi félévre**)
 
 Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
@@ -54,7 +53,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Szerveroldali megoldásért nem adható pont, kivéve Blazor Server
 * A szoftvernek egységes funkcióhalmazt kell nyújtania, különálló, egymáshoz nem kapcsolódó funkciókból álló szoftver nem elfogadható. Azaz különálló tutorialok összefércelését nem díjazzuk.
 
-## Pontrendszer - XAML
+## Pontrendszer - XAML (**Nincs még véglegesítve 2021. őszi félévre**)
 
 ### Általános
 
