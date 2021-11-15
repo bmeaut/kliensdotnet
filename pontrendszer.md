@@ -27,6 +27,7 @@
     * adatforrás (egyet kell választani):
       * szerveroldali/külső API (esetleg szerveroldali adatbázis főleg Blazor Server esetén)
       * böngészőn belül elérhető adatforrás (pl. local storage, IndexedDB)
+* Authentikáció nem szükséges (kivéve persze, ha a külső API meghívása másként nem lehetséges).
 * Az elfogadott specifikációnak megfelelő működés 
 * A szerveroldali adatforrás/API lehet külső, nem saját fejlesztésű is
 
