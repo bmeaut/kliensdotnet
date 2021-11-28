@@ -144,6 +144,10 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Külső Blazor komponenskönyvtár használata. Ajánlott: [MudBlazor](https://mudblazor.com/), [Syncfusion](https://www.syncfusion.com/blazor-components) ([Community licensz](https://www.syncfusion.com/products/communitylicense)), [Radzen](https://blazor.radzen.com/). [Bővebb lista](https://github.com/AdrienTorris/awesome-blazor#component-bundles). **[10]**
 * JavaScript függvény hívása C#-ból **[3]**
 * C# függvény hívása JavaScript-ből **[3]**
+* A `@code` blokkba kerülő C# kód kiszervezése külön C# fájlba (ún. code behind fájl) **[3]**
+* MVVM minta használata. Ajánlott mini keretrendszert (pl. [BlazorMVVM](https://github.com/BlazorExtensions/Logging)) használni. **[10]**
+* Dinamikusan renderelt Razor komponens használata. **.NET 6 szükséges hozzá** **[5]**
+* Legalább egy komponens egységes hibakezelésének megvalósítása `ErrorBoundary` használatával. **.NET 6 szükséges hozzá** **[5]**
 
 ### DevOps
 * Hosztolás külső szolgáltatónál (pl. Azure Static Web App) vagy klasszikus webszerveren (IIS, Apache, nginx). Csak Kestrel (beépített ASP.NET Core webszerver) nem elfogadható. **[7]**
