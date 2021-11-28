@@ -140,6 +140,11 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * GraphQL/OData/gRPC-Web alapú kommunikáció használata **[7]**
 * HTTP kérések központi robosztusabbá tétele [Polly](https://github.com/App-vNext/Polly) könyvtárral. Ehhez nem kell szerveroldali támogatás. **[7]**
 
+### Felület, Razor komponensek
+* Saját Razor komponens készítése és felhasználása másik Razor komponensben. A felhasznált komponens a szükséges adatokat komponensparamétereken keresztül kapja **[6]**
+* Saját Layout komponens készítése és alkalmazása a webalkalmazás egy részére, egy adott könyvtárban található oldalak/komponensekre **[6]**
+* Külső Blazor komponenskönyvtár használata. Ajánlott: [MudBlazor](https://mudblazor.com/), [Syncfusion](https://www.syncfusion.com/blazor-components) ([Community licensz](https://www.syncfusion.com/products/communitylicense)), [Radzen](https://blazor.radzen.com/). [Bővebb lista](https://github.com/AdrienTorris/awesome-blazor#component-bundles) **[10]**
+
 ## A szabályrendszer változása
 
 Véglegesítés után is fenntartjuk a jogot
