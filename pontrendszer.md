@@ -126,7 +126,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 * Böngésző local storage használata egyszerű adatok tárolásásra, állapottárolásra, például felhasználói beállítások kliensoldali elmentésére. Ajánlott integrációs csomagot (pl. [Blazored-LocalStorage](https://github.com/Blazored/LocalStorage), [BlazorExtensions.Storage](https://github.com/BlazorExtensions/Storage)) használni. **[6]**
 * IndexedDB használata komplexebb adatok tárolására, nagyobb adatok gyorsítótárazására. Ajánlott integrációs csomagot (pl. [BlazorIndexedDbJs](https://github.com/kattunga/BlazorIndexedDbJs)) használni. **[7]**
-* Webassembly fölött futó sqlite használata relációs adatok gyorsítótárazására. [Demo](https://www.youtube.com/watch?v=kesUNeBZ1Os) **Csak .NET 6-ban!** **[12]**
+* Webassembly fölött futó sqlite használata relációs adatok gyorsítótárazására. [Demo](https://www.youtube.com/watch?v=kesUNeBZ1Os) **.NET 6 szükséges!** **[12]**
 * Felületi beállítások tárolása URL-ben. A felület az URL alapján vissza tudja tölteni a beállításait (pl. szűrési, lapozási, rendezési beállításokat). **[6]**
 * Felhasználóhoz kapcsolódó beállítások, adatok mentése elterjedt felhős adattároló szolgáltatásba (pl. OneDrive/[MS Graph API](https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/driveitem_put_content?view=odsp-graph-online)). **Külön authentikációt igényelhet** **[15]**
 
@@ -146,8 +146,17 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * C# függvény hívása JavaScript-ből **[3]**
 * A `@code` blokkba kerülő C# kód kiszervezése külön C# fájlba (ún. code behind fájl) **[3]**
 * MVVM minta használata. Ajánlott mini keretrendszert (pl. [BlazorMVVM](https://github.com/BlazorExtensions/Logging)) használni. **[10]**
-* Dinamikusan renderelt Razor komponens használata. **.NET 6 szükséges hozzá** **[5]**
-* Legalább egy komponens egységes hibakezelésének megvalósítása `ErrorBoundary` használatával. **.NET 6 szükséges hozzá** **[5]**
+* Dinamikusan renderelt Razor komponens használata. **.NET 6 szükséges!** **[5]**
+* Legalább egy komponens egységes hibakezelésének megvalósítása `ErrorBoundary` használatával. **.NET 6 szükséges!** **[5]**
+* Külső térképszolgáltató integrálása (pl. Google Maps, Azure Maps) .NET komponens segítségével. JavaScript alapú megoldásért nem jár pont. **[5-7]**
+  * A használt komponenskönyvtár által nyújtott integráció **[5]**
+  * Különálló komponens (pl. [BlazorGoogleMaps](https://github.com/rungwiroon/BlazorGoogleMaps)) **[7]**
+* Rajzolás HTML5 canvasra .NET komponens segítségével. JavaScript alapú megoldásért nem jár pont. **[5-7]**
+   * A használt komponenskönyvtár által nyújtott integráció **[5]**
+   * Különálló komponens (pl. [Blazor.Canvas](https://github.com/excubo-ag/Blazor.Canvas)) **[7]**
+* HTML5 videólejátszás/vezérlés .NET komponens segítségével. JavaScript alapú megoldásért nem jár pont. **[5-7]**
+   * A használt komponenskönyvtár által nyújtott integráció **[5]**
+   * Különálló komponens (pl. [Blazored Video](https://github.com/Blazored/Video)) **[7]**
 
 ### DevOps
 * Hosztolás külső szolgáltatónál (pl. Azure Static Web App) vagy klasszikus webszerveren (IIS, Apache, nginx). Csak Kestrel (beépített ASP.NET Core webszerver) nem elfogadható. **[7]**
