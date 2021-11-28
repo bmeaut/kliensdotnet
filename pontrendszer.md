@@ -122,6 +122,9 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
   *  Az előbbin felül a nyelv állítható a felületen **+3**
 * Külső osztálykönyvtár használata (a külső komponens által ellátott feladatért további pontszám nem adható). Nem számít ide a projekt generálásakor bekerülő, illetve a Microsoft által készített NuGet csomagok **[5]**
 * Háttérfolyamat(ok) futtatása valós párhuzamossággal web workerek segítségével. Ajánlott integrációs csomagot (pl. [BlazorWorker](https://github.com/tewr/BlazorWorker)) használni. **[7]**
+* Kliensoldali naplózás **[3-10]**
+  * Böngésző konzolra. Ajánlott integrációs csomagot (pl. [BlazorExtensions.Logging](https://github.com/BlazorExtensions/Logging)) használni. **[3]**
+  * Emellett Application Insighstsba is. Ajánlott integrációs csomagot (pl. [BlazorApplicationInsights](https://github.com/IvanJosipovic/BlazorApplicationInsights)) használni. **+7**
 
 ### Adatkezelés, állapottárolás
 
@@ -132,7 +135,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ### Kommunikáció
 **Figyelem! Ezen szekcióban a pontok megszerzéséhez a legtöbb esetben szerveroldali támogatás is szükséges!**
-* Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból**[5]**
+* Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból **[5]**
 * SignalR/WebSocket használata push jellegű (Szerver -> Kliens) kommunikációra **[7]**
 * GraphQL/OData/gRPC-Web alapú kommunikáció használata **[7]**
 * HTTP kérések központi robosztusabbá tétele [Polly](https://github.com/App-vNext/Polly) könyvtárral. Ehhez nem kell szerveroldali támogatás. **[7]**
