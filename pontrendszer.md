@@ -126,14 +126,15 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 * LocalStorage használata egyszerű adatok tárolásásra, állapottárolásra, például felhasználói beállítások kliensoldali elmentésére. Ajánlott integrációs csomagot (pl. [Blazored-LocalStorage](https://github.com/Blazored/LocalStorage), [BlazorExtensions.Storage](https://github.com/BlazorExtensions/Storage)) használni. **[6]**
 * IndexedDB használata komplexebb adatok tárolására, nagyobb adatok gyorsítótárazására. Ajánlott integrációs csomagot (pl. [BlazorIndexedDbJs](https://github.com/kattunga/BlazorIndexedDbJs)) használni. **[7]**
-* Webassembly fölött futó sqlite használata relációs adatok gyorsítótárazására. [Demo](https://www.youtube.com/watch?v=kesUNeBZ1Os) **Csak .NET 6-ban** **[12]**
+* Webassembly fölött futó sqlite használata relációs adatok gyorsítótárazására. [Demo](https://www.youtube.com/watch?v=kesUNeBZ1Os) **Csak .NET 6-ban!** **[12]**
 * Felületi beállítások tárolása URL-ben. A felület az URL alapján vissza tudja tölteni a beállításait (pl. szűrési, lapozási, rendezési beállításokat). **[6]**
 
 ### Kommunikáció
-* SignalR
-* GraphQL
-
-
+**Figyelem! Ezen szekcióban a pontok megszerzéséhez a legtöbb esetben szerveroldali támogatás is szükséges!**
+* Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból**[5]**
+* SignalR/WebSocket használata push jellegű (Szerver -> Kliens) kommunikációra **[7]**
+* GraphQL/OData/gRPC-Web alapú kommunikáció használata **[7]**
+* HTTP kérések központi robosztusabbá tétele [Polly](https://github.com/App-vNext/Polly) könyvtárral. Ehhez nem kell szerveroldali támogatás. **[7]**
 
 ## A szabályrendszer változása
 
