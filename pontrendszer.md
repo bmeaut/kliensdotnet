@@ -121,6 +121,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Külső osztálykönyvtár használata (a külső komponens által ellátott feladatért további pontszám nem adható). Nem számít ide a projekt generálásakor bekerülő, illetve a Microsoft által készített NuGet csomagok **[5]**
 * Háttérfolyamat(ok) futtatása valós párhuzamossággal web workerek segítségével. Ajánlott integrációs csomagot (pl. [BlazorWorker](https://github.com/tewr/BlazorWorker)) használni. **[7]**
 * Időzítő (Timer) alkalmazása. **[3]**
+* Dependency Injection konténerbe regisztrált objektum élettartamának korlátozása `OwningComponentBase` ősosztály alkalmazásával. **[5]**
 
 ### Adatkezelés, állapottárolás
 
