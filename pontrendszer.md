@@ -114,6 +114,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
     *   Appok közötti kommunikáció (UWP API-val) **[9]**
 
 ## Pontrendszer - Blazor
+Nincs még véglegesítve 2021. őszi félévre
 
 ### Általános
 
