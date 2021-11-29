@@ -114,7 +114,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ### Általános
 * On-demand függőség letöltés (Assembly Lazy Loading) **[7]**
-* PWA képesség. Az alkalmazás PWA-ként telepíthető pl. Windows-on **[7]**
+* PWA képesség. Az alkalmazás PWA-ként telepíthető pl. Windows-on **[6]**
 * Lokalizáció, többnyelvű felület. **[7-10]**
   * Az alkalmazás két nyelvű angol+magyar, minimum annyi felületen, amennyi a kisházihoz kell. Az oldal első megnyitásakor alapértelmezett nyelv: a böngésző nyelvi beállítása alapján. A nyelvenkénti szövegek resource fájlban (resx) tárolódnak. **7**
   *  Az előbbin felül a nyelv állítható a felületen **+3**
