@@ -10,21 +10,20 @@
       * Universal Windows platform (UWP)
       * WinUI
       * Xamarin.Forms - XAML UI
-      * Xamarin natív (Xamarin.iOS vagy Xamarin.Android) (csak saját felelősségre, gyakorlaton nem szerepel)
-      * Xamarin.Forms - iOS vagy Android UI (csak saját felelősségre, gyakorlaton nem szerepel)
+      * Xamarin natív (Xamarin.iOS vagy Xamarin.Android) iOS vagy Android UI (csak saját felelősségre, gyakorlaton nem szerepel)
       * MAUI (csak saját felelősségre, gyakorlaton nem szerepel)
    * Blazor
       * Blazor WebAssembly
       * Blazor Server (csak saját felelősségre, gyakorlaton nem szerepel)
 * XAML alapú technológia esetben
    * MVVM minta alkalmazása
-   * adatforrás (egyet kell választani):
+   * adatforrás (legalább egyet kell választani):
       * lokális fájl
       * beágyazott adatbázis
       * szerveroldali/külső API
 * Blazor esetén
     * .NET 5 (vagy 6 - saját felelősségre) alapplatform
-    * adatforrás (egyet kell választani):
+    * adatforrás (legalább egyet kell választani):
       * szerveroldali/külső API (esetleg szerveroldali adatbázis főleg Blazor Server esetén)
       * böngészőn belül elérhető adatforrás (pl. local storage, IndexedDB)
 * Authentikáció nem szükséges (kivéve persze, ha a külső API meghívása másként nem lehetséges).
@@ -57,7 +56,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * A szoftvernek egységes funkcióhalmazt kell nyújtania, különálló, egymáshoz nem kapcsolódó funkciókból álló szoftver nem elfogadható. Azaz különálló tutorialok összefércelését nem díjazzuk.
 
 ## Pontrendszer - XAML 
-**Nincs még véglegesítve 2021. őszi félévre**
+**Véglegesítve 2021. őszi félévre**
 
 ### Általános
 
@@ -88,13 +87,17 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Accessibility (fogyatékkal élők támogatása) **[5-10]**
 *   Egyedi vezérlő készítése! **[3-6]** **Nem User Control!**
     *   Xamarin esetében saját Renderer komponensek implementálása
+*   Saját Markup Extension készítése **[3]**
+
 *   Inkrementálisan betöltődő lista **[3]**
 *   Line-of-Business alkalmazás funkciók implementálása **[3-15]** pl: inputvalidáció, drag&drop, összetett menürendszer, ribbon, DataGrid stb. 
 *   Kiemelkedő UX/UI design pl.: Connected animation, extra Fluent Design elemek, CompositionAPI használata stb. **[3-9]**
 
+
 ### Platformszolgáltatások
 
 *   Médialejátszás **[3]**
+    *    Alacsony szintű médiakezelés **[+9]** pl.: Effects, MIDI, Transcode stb.
 *   Háttérszolgáltatás készítése **[6]**
 *   Szenzorhasználat **[6]**
 *   Alacsonyszintű kommunikáció használata (Bluetooth, NFC, Wifi Direct stb) **[9]**
@@ -109,6 +112,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Rendszer szintű integrációk
     *   Protokol aktiváció **[3]**
     *   Megosztás támogatása **[3-6]**
+    *   Appok közötti kommunikáció (UWP API-val) **[9]**
 
 ## Pontrendszer - Blazor
 
