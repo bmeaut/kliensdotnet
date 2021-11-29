@@ -93,7 +93,6 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 *   Line-of-Business alkalmazás funkciók implementálása **[3-15]** pl: inputvalidáció, drag&drop, összetett menürendszer, ribbon, DataGrid stb. 
 *   Kiemelkedő UX/UI design pl.: Connected animation, extra Fluent Design elemek, CompositionAPI használata stb. **[3-9]**
 
-
 ### Platformszolgáltatások
 
 *   Médialejátszás **[3]**
@@ -117,6 +116,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 ## Pontrendszer - Blazor
 
 ### Általános
+
 * On-demand függőség letöltés (Assembly Lazy Loading) **[7]**
 * PWA képesség. Az alkalmazás PWA-ként telepíthető pl. Windows-on **[6]**
 * Lokalizáció, többnyelvű felület. **[7-10]**
@@ -136,6 +136,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Felhasználóhoz kapcsolódó beállítások, adatok mentése elterjedt felhős adattároló szolgáltatásba (pl. OneDrive/[MS Graph API](https://docs.microsoft.com/en-us/onedrive/developer/rest-api/api/driveitem_put_content?view=odsp-graph-online)). **Külön authentikációt igényelhet** **[15]**
 
 ### Kommunikáció
+
 **Figyelem! Ezen szekcióban a pontok megszerzéséhez a legtöbb esetben szerveroldali támogatás is szükséges!**
 * Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból **[5]**
 * SignalR/WebSocket használata push jellegű (Szerver -> Kliens) kommunikációra **[7]**
@@ -144,6 +145,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * HTTP kérések központi robosztusabbá tétele [Polly](https://github.com/App-vNext/Polly) könyvtárral. Ehhez nem kell szerveroldali támogatás. **[7]**
 
 ### Felület, DOM, Razor komponensek
+
 * Saját Razor komponens készítése és felhasználása másik Razor komponensben. A felhasznált komponens a szükséges adatokat komponensparamétereken keresztül kapja **[6]**
 * Saját Layout komponens készítése és alkalmazása a webalkalmazás egy részére, egy adott könyvtárban található oldalak/komponensekre **[6]**
 * Külső Blazor komponenskönyvtár használata. Ajánlott: [MudBlazor](https://mudblazor.com/), [Syncfusion](https://www.syncfusion.com/blazor-components) ([Community licensz](https://www.syncfusion.com/products/communitylicense)), [Radzen](https://blazor.radzen.com/). [Bővebb lista](https://github.com/AdrienTorris/awesome-blazor#component-bundles). **[10]**
@@ -164,6 +166,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
    * Különálló komponens (pl. [Blazored Video](https://github.com/Blazored/Video)) **[7]**
 
 ### DevOps
+
 * Hosztolás külső szolgáltatónál (pl. Azure Static Web App) vagy klasszikus webszerveren (IIS, Apache, nginx). Csak Kestrel (beépített ASP.NET Core webszerver) nem elfogadható. **[7]**
 * Kliensoldali naplózás **[3-10]**
   * Böngésző konzolra. Ajánlott integrációs csomagot (pl. [BlazorExtensions.Logging](https://github.com/BlazorExtensions/Logging)) használni. **[3]**
@@ -171,6 +174,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Legalább 3 Razor komponens tesztelése [bUnit](https://bunit.dev/)-tal. Komponensenként min. 5 teszteset. **[10]**
 
 ### Biztonság, authentikáció
+
 * Authentikáció kliensoldali része. **Szerveroldali támogatás szükséges!** Süti (cookie) alapú megoldásért nem jár pont. **[3-15]**
   * API kulcs alapú authentikáció **[3]**
   * az adott szolgáltatáshoz tartozó SDK által végzett authentikáció **[5]**
