@@ -1,8 +1,7 @@
-# (Előzetes) Házi követelmények és pontrendszer
-
+# Házi követelmények és pontrendszer
+**Véglegesítve 2021. őszi félévre**
 
 ## Kisházi követelmények 
-**Véglegesítve 2021. őszi félévre**
 
 * A következő platformok valamelyikén elkészített alkalmazás:
    * XAML     
@@ -43,10 +42,10 @@
 
 Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
-*   Minden kisházi követelmény
-*   Legfeljebb két alkalmazás, két különböző technológiával a fentiek közül
-*   Legalább 30 pont megszerzése a lenti pontrendszer alapján
-*   **Megajánlott jegy számítása:** 30-49 pont: jó (4), 50+ pont: jeles (5)
+* Minden kisházi követelmény
+* Legfeljebb két alkalmazás, két különböző technológiával a fentiek közül
+* Legalább 30 pont megszerzése a lenti pontrendszer alapján
+* **Megajánlott jegy számítása:** 30-49 pont: jó (4), 50+ pont: jeles (5)
 
 ### Pontszerzési szabályok
 
@@ -68,50 +67,50 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
 ### Adatkezelés
 
-*   Beágyazott adatbázis (pl. SqLite) használata **[6]**
-    *   Entity Framework Core könyvtárral **[+3]**
-*   Social authentikáció (Live, Facebook) **[6]**
-*   Külső webszolgáltatás szolgáltatás elérése **[3]**
-    *   REST kliens implementálása (nem előre elkészített SDK-n keresztül kommunikál) **[+3]**
-*   Offline szinkronizáció szerveralkalmazással **[9]**
+* Beágyazott adatbázis (pl. SqLite) használata **[6]**
+    * Entity Framework Core könyvtárral **[+3]**
+* Social authentikáció (Live, Facebook) **[6]**
+* Külső webszolgáltatás szolgáltatás elérése **[3]**
+    * REST kliens implementálása (nem előre elkészített SDK-n keresztül kommunikál) **[+3]**
+* Offline szinkronizáció szerveralkalmazással **[9]**
 
 ### UI
 
-*   Külső UI osztálykönyvtár használata **[3]**
-*   Coded UI teszt **[6]**
-*   Lokalizáció (angol+magyar, teljes) **[6]**
-*   DPI skálázásra felkészített felület és erőforrások **[3]**
-*   Különböző képernyő méretekre is felkészített felületek **[6]**
-*   Animációk használata **[3-9]**
-*   Gesztuskezelés **[3]**
-*   Accessibility (fogyatékkal élők támogatása) **[5-10]**
-*   Egyedi vezérlő készítése! **[3-6]** **Nem User Control!**
-    *   Xamarin esetében saját Renderer komponensek implementálása
-*   Saját Markup Extension készítése **[3]**
+* Külső UI osztálykönyvtár használata **[3]**
+* Coded UI teszt **[6]**
+* Lokalizáció (angol+magyar, teljes) **[6]**
+* DPI skálázásra felkészített felület és erőforrások **[3]**
+* Különböző képernyő méretekre is felkészített felületek **[6]**
+* Animációk használata **[3-9]**
+* Gesztuskezelés **[3]**
+* Accessibility (fogyatékkal élők támogatása) **[5-10]**
+* Egyedi vezérlő készítése! **[3-6]** **Nem User Control!**
+  * Xamarin esetében saját Renderer komponensek implementálása
+* Saját Markup Extension készítése **[3]**
 
-*   Inkrementálisan betöltődő lista **[3]**
-*   Line-of-Business alkalmazás funkciók implementálása **[3-15]** pl: inputvalidáció, drag&drop, összetett menürendszer, ribbon, DataGrid stb. 
-*   Kiemelkedő UX/UI design pl.: Connected animation, extra Fluent Design elemek, CompositionAPI használata stb. **[3-9]**
+* Inkrementálisan betöltődő lista **[3]**
+* Line-of-Business alkalmazás funkciók implementálása **[3-15]** pl: inputvalidáció, drag&drop, összetett menürendszer, ribbon, DataGrid stb. 
+* Kiemelkedő UX/UI design pl.: Connected animation, extra Fluent Design elemek, CompositionAPI használata stb. **[3-9]**
 
 ### Platformszolgáltatások
 
-*   Médialejátszás **[3]**
-    *    Alacsony szintű médiakezelés **[+9]** pl.: Effects, MIDI, Transcode stb.
-*   Háttérszolgáltatás készítése **[6]**
-*   Szenzorhasználat **[6]**
-*   Alacsonyszintű kommunikáció használata (Bluetooth, NFC, Wifi Direct stb) **[9]**
-*   Térkép kezelés, és hely alapú szolgáltatások kezelése **[6-12]**
-    *   pl.: Útvonaltervezés, geocoding vagy POI vagy területrajzolás. geofencing stb.
-*   Kamera közvetlen kezelése, Nem a gyári kamera alkalmazás feldobása! **[9]**
-*   Speech API, személyi aszisztens integráció **[3-6]**
-*   Értesítések kezelése **[3]**
-    *   Push értesítések **[+6]**
-    *   Interaktív értesítések **[+3]**
-*   Store API (trial verzió vagy in-app purchase, store szimulátor) **[6]**
-*   Rendszer szintű integrációk
-    *   Protokol aktiváció **[3]**
-    *   Megosztás támogatása **[3-6]**
-    *   Appok közötti kommunikáció (UWP API-val) **[9]**
+* Médialejátszás **[3]**
+  * Alacsony szintű médiakezelés **[+9]** pl.: Effects, MIDI, Transcode stb.
+* Háttérszolgáltatás készítése **[6]**
+* Szenzorhasználat **[6]**
+* Alacsonyszintű kommunikáció használata (Bluetooth, NFC, Wifi Direct stb) **[9]**
+* Térkép kezelés, és hely alapú szolgáltatások kezelése **[6-12]**
+  * pl.: Útvonaltervezés, geocoding vagy POI vagy területrajzolás. geofencing stb.
+* Kamera közvetlen kezelése, Nem a gyári kamera alkalmazás feldobása! **[9]**
+* Speech API, személyi aszisztens integráció **[3-6]**
+* Értesítések kezelése **[3]**
+  * Push értesítések **[+6]**
+  * Interaktív értesítések **[+3]**
+* Store API (trial verzió vagy in-app purchase, store szimulátor) **[6]**
+* Rendszer szintű integrációk
+  * Protokol aktiváció **[3]**
+  * Megosztás támogatása **[3-6]**
+  * Appok közötti kommunikáció (UWP API-val) **[9]**
 
 ## Pontrendszer - Blazor
 Nincs még véglegesítve 2021. őszi félévre
