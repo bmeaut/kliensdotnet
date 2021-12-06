@@ -37,8 +37,7 @@
 * UX guideline-ok durva megsértése
 * specifikációhoz képest jelentősen kevesebb funkcionalitás
 
-## Nagyházi követelmények 
-**Nincs még véglegesítve 2021. őszi félévre**
+## Nagyházi követelmények
 
 Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 
@@ -54,8 +53,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * Szerveroldali megoldásért nem adható pont, kivéve Blazor Server
 * A szoftvernek egységes funkcióhalmazt kell nyújtania, különálló, egymáshoz nem kapcsolódó funkciókból álló szoftver nem elfogadható. Azaz különálló tutorialok összefércelését nem díjazzuk.
 
-## Pontrendszer - XAML 
-**Véglegesítve 2021. őszi félévre**
+## Pontrendszer - XAML
 
 ### Általános
 
@@ -113,7 +111,6 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
   * Appok közötti kommunikáció (UWP API-val) **[9]**
 
 ## Pontrendszer - Blazor
-Nincs még véglegesítve 2021. őszi félévre
 
 ### Általános
 
