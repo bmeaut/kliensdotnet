@@ -149,7 +149,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * JavaScript függvény hívása C#-ból **[3]**
 * C# függvény hívása JavaScript-ből **[3]**
 * A `@code` blokkba kerülő C# kód kiszervezése külön C# fájlba (ún. code behind fájl) **[3]**
-* MVVM minta használata. Ajánlott mini keretrendszert (pl. [BlazorMVVM](https://github.com/BlazorExtensions/Logging)) használni. **[10]**
+* MVVM minta használata. Ajánlott mini keretrendszert (pl. [MVVMBlazor](https://github.com/klemmchr/MvvmBlazor)) használni. **[10]**
 * Dinamikusan renderelt Razor komponens használata. **.NET 6 szükséges!** **[5]**
 * Legalább egy komponens egységes hibakezelésének megvalósítása `ErrorBoundary` használatával. **.NET 6 szükséges!** **[5]**
 * Külső térképszolgáltató integrálása (pl. Google Maps, Azure Maps) .NET komponens segítségével. JavaScript alapú megoldásért nem jár pont. **[5-7]**
