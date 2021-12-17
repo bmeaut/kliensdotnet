@@ -135,7 +135,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 ### Kommunikáció
 
 **Figyelem! Ezen szekcióban a pontok megszerzéséhez a legtöbb esetben szerveroldali támogatás is szükséges!**
-* Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból **[5]**
+* Kliensoldali kommunikációs kód generálása OpenAPI/Swagger szolgáltatásleíróból, vagy szolgáltatásleíró híján [Refit](https://github.com/reactiveui/refit) segítségével **[5]**
 * SignalR/WebSocket használata push jellegű (Szerver -> Kliens) kommunikációra **[7]**
 * GraphQL/OData/gRPC-Web alapú kommunikáció használata **[7]**
 * Proxy alkalmazása a forrásszerveren (ahonnan a WebAssembly alkalmazás letöltődik) CORS hibák elkerülésére. **[5]**
