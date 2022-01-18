@@ -118,7 +118,7 @@ Az alábbiak közül mindegyiknek teljesülnie kell a megajánlott jegyhez:
 * PWA képesség. Az alkalmazás PWA-ként telepíthető pl. Windows-on **[6]**
 * Lokalizáció, többnyelvű felület. **[7-10]**
   * Az alkalmazás két nyelvű angol+magyar, minimum annyi felületen, amennyi a kisházihoz kell. Az oldal első megnyitásakor alapértelmezett nyelv: a böngésző nyelvi beállítása alapján. A nyelvenkénti szövegek resource fájlban (resx) tárolódnak. **7**
-  *  Az előbbin felül a nyelv állítható a felületen **+3**
+  *  Az előbbin felül a nyelv állítható a felületen **+3**  SUGG: 5+5
 * Külső osztálykönyvtár használata (a külső komponens által ellátott feladatért további pontszám nem adható). Nem számít ide a projekt generálásakor bekerülő, illetve a Microsoft által készített NuGet csomagok **[5]**
 * Háttérfolyamat(ok) futtatása valós párhuzamossággal web workerek segítségével. Ajánlott integrációs csomagot (pl. [BlazorWorker](https://github.com/tewr/BlazorWorker)) használni. **[7]**
 * Időzítő (Timer) alkalmazása. **[3]**
